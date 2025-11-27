@@ -61,7 +61,23 @@ curl http://localhost:3000/workers
 
 Run MapReduce job:
 ```
-curl -X POST http://localhost:3000/mapreduce -H "Content-Type: application/json" -d '{"text":"hello world hello distributed systems world"}'
+curl -X POST "http://localhost:3000/mapreduce" ^
+  -H "Content-Type: application/json" ^
+  -d "{\"text\":\"hello world hello distributed systems world\"}"
+```
+### Note:
+🔴This works if you have curl installed and you run this command in cmd (not in powershell)
+If not, you can use postman using the following params:
+POST request in the url:
+```
+http://localhost:3000/mapreduce
+```
+
+with body:
+```
+{
+    "text" : "hello world hello distributed systems world"
+}
 ```
 
 ## 🛑 Stopping Services
