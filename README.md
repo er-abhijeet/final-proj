@@ -5,6 +5,14 @@ It includes a **Master Node**, **Mapper Workers**, and **Reducer Workers** commu
 
 ---
 
+## 🔴 Repo Available
+If you wish to directly get the project in you local, you can clone this repo here:
+
+```
+https://github.com/er-abhijeet/final-proj.git
+```
+
+
 ## 📌 Architecture (Quick Overview)
 
 - `master.js`: Splits input text → sends chunks to registered mappers → shuffles results → distributes keys to reducers → aggregates final counts.
@@ -53,9 +61,7 @@ curl http://localhost:3000/workers
 
 Run MapReduce job:
 ```
-curl -X POST http://localhost:3000/mapreduce \
-     -H "Content-Type: application/json" \
-     -d '{"text":"hello world hello distributed systems world"}'
+curl -X POST http://localhost:3000/mapreduce -H "Content-Type: application/json" -d '{"text":"hello world hello distributed systems world"}'
 ```
 
 ## 🛑 Stopping Services
