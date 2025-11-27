@@ -1,0 +1,9 @@
+Group Number 13
+Topic : Mini MapReduce Word Count Demo
+
+Members:
+Abhijeet Mohapatra 	: 231020202
+Abhinav Nirapure   	: 231020402
+Abhishek Kumar Gupta	: 231020403
+Adarsh Gond		: 231020404
+Adarsh Raj		: 231020405
