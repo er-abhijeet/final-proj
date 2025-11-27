@@ -83,5 +83,12 @@ with body:
 ## 🛑 Stopping Services
 Press Ctrl + C inside each worker terminal (auto un-registers them).
 
+## Frontend
+The frontend is deployed at
+```
+https://react-one-phi-35.vercel.app/
+```
+It is just a simulation of the output and not actual distributed nodes are used, for the real experience you need to run the nodes yourself.
+
 # FlowChart
 ![alt text](diagram.png)
