@@ -42,8 +42,6 @@ cors
 ```
 node runner.js
 ```
-## 🔴🔴 Linux Users
-The runner.js might not run on linux, if that's the case then please start all the terminals seperately by the below commands. This happens because the runner.js has commands to open and run new terminals which sometimes mess up. Thanks!!
 
 ### 2️⃣ Or maybe you prefer running each service manually (Separate Terminals)
 | Service   | Command                                      |
